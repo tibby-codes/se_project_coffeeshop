@@ -152,14 +152,6 @@
   justify-content: center;
 }
 
-.background__image {
-  display: flex;
-  background-image: url(../images/background_recipes.svg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .recipes__iframe {
   display: flex;
   gap: 80px;
