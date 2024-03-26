@@ -22,7 +22,7 @@
   justify-content: space-between;
 }
 
-.nav__logo {
+.header__image {
   position: relative;
   left: -50px;
   width: 105px;
