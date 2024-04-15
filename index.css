@@ -71,3 +71,32 @@
   display: flex;
   justify-content: space-between;
 }
+
+.recipes {
+  padding: 100px 80px 215px;
+}
+
+.recipes__title {
+  max-width: 580px;
+}
+
+.recipes__subtitle {
+  max-width: 438px;
+}
+
+.recipes__videos {
+  width: 480px;
+  height: 273px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.recipes__iframe {
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0 0 0;
+}
