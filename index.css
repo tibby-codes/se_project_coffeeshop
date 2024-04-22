@@ -17,6 +17,10 @@
   flex-direction: column;
 }
 
+.header__image {
+  position: absolute;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
