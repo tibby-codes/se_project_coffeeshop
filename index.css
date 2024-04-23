@@ -22,8 +22,7 @@ page {
   opacity: 0.8;
 }
 
-.header__background {
-}
+
 .nav {
   display: flex;
   justify-content: space-between;
