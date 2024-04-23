@@ -1,4 +1,4 @@
-.page {
+page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
@@ -19,8 +19,11 @@
 
 .header__image {
   position: absolute;
+  opacity: 0.8;
 }
 
+.header__background {
+}
 .nav {
   display: flex;
   justify-content: space-between;
