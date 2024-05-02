@@ -38,7 +38,6 @@
 }
 
 .header__image {
-  background-image: url(../images/inside_coffee_shop.png);
   position: absolute;
   z-index: -1;
   top: 124px;
