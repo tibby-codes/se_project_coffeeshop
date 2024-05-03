@@ -37,10 +37,14 @@
 .header__image {
   position: absolute;
   z-index: -1;
-  top: 124px;
   right: 5px;
-  width: 646px;
-  height: 568px;
+}
+
+.header__background_image {
+  position: absolute;
+  max-width: 636px;
+  top: 135px;
+  right: 20px;
 }
 
 .header__footer {
