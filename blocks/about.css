@@ -14,7 +14,6 @@
 }
 
 .about {
-  padding: 100px 80px 173px;
   color: #fff;
   background: #0a2850;
   display: flex;
@@ -40,6 +39,7 @@
   margin-top: 119px;
   padding: 10px 50px 170px;
   display: flex;
+  flex-direction: column;
   position: relative;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
