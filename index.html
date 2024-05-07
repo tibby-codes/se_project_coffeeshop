@@ -6,7 +6,6 @@
     <meta name="description" content="Coffee Shop Landing Page" />
     <meta name="author" content="Software Engineer" />
     <meta name="keywords" content="HTML, CSS" />
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,13 +27,13 @@
           />
           <ul class="nav__links">
             <li>
-              <a href="#recipes-section" class="nav__links">Recipes</a>
+              <a href="#recipes-section" class="nav__link">Recipes</a>
             </li>
             <li>
-              <a href="#reservation-section" class="nav__links">Book a table</a>
+              <a href="#reservation-section" class="nav__link">Book a table</a>
             </li>
-            <li><a href="#menu-section" class="nav__links">Menu</a></li>
-            <li><a href="#about-section" class="nav__links">Contacts</a></li>
+            <li><a href="#menu-section" class="nav__link">Menu</a></li>
+            <li><a href="#about-section" class="nav__link">Contacts</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -48,12 +47,12 @@
         <img
           src="./images/background_header.svg"
           alt="background header"
-          class="header__image"
+          class="header__background_image"
         />
         <img
           src="./images/inside_coffee_shop.png"
           alt="coffee shop"
-          class="header__background_image"
+          class="header"
         />
 
         <div class="header__footer">
@@ -104,11 +103,12 @@
           </div>
         </section>
         <section class="reservation" id="reservation-section">
-          <h2 class="reservation__title form">Book a table</h2>
+          <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
               <label for="username" class="form__label">
                 Name *<input
+                  required
                   type="text"
                   id="username"
                   class="form__input"
@@ -117,6 +117,7 @@
               </label>
               <label for="guests" class="form__label">
                 Number of guests *<input
+                  required
                   type="number"
                   id="guests"
                   class="form__input"
@@ -125,6 +126,7 @@
               </label>
               <label for="time" class="form__label">
                 Date & time *<input
+                required
                   type="datetime-local"
                   id="time"
                   class="form__input"
@@ -132,6 +134,7 @@
               </label>
               <label for="email" class="form__label">
                 Your email *<input
+                  required
                   type="email"
                   id="email"
                   class="form__input"
@@ -255,14 +258,14 @@
           <h3 class="footer__social-heading">Social media</h3>
           <ul class="footer__list">
             <li class="footer__list-item">
-              <p class="footer__social-link">
+              <li class="footer__social-link">
                 <img
                   src="images/facebook_white.svg"
                   alt="facebook logo"
                   class="footer__social-icon"
                 />
                 Facebook
-              </p>
+              </li>
             </li>
             <li class="footer__list-item">
               <p class="footer__social-link">

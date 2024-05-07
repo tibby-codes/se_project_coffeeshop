@@ -3,7 +3,7 @@
   border-width: 0;
 }
 
-.from__fieldset {
+.form__fieldset {
   margin: 0;
   padding: 0;
   border: none;
@@ -39,6 +39,8 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .form__button {
@@ -55,6 +57,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  border-radius: 4px;
+  border: none;
 }
 
 .form__button:hover {

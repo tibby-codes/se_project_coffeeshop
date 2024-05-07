@@ -8,6 +8,9 @@
   padding: 60px 80px 108px 80px;
   position: relative;
   margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer__logo {
@@ -23,6 +26,8 @@
   font-size: 16px;
   line-height: 20px;
   text-align: right;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__list {
@@ -57,11 +62,12 @@
 }
 
 .footer__social-link:hover {
-  opacity: 1;
+  color: #c1c1c1;
+  transition: 0.3s ease;
 }
 
 .footer__copyright {
-  padding: 60px;
+  padding: 108px 0 60px 80px;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
