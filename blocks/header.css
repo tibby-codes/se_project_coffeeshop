@@ -6,9 +6,10 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  z-index: 0;
-  background: url(../images/background_header.svg) no-repeat, cover;
+  z-index: 1;
+
   overflow: hidden;
+  flex-direction: flex-end;
 }
 
 .header__title {
@@ -36,18 +37,20 @@
 }
 
 .header__image {
+  background: url(../images/inside_coffee_shop.png);
   position: absolute;
   z-index: -1;
+  top: 124px;
   right: 5px;
-  height: 646px;
-  width: 568px;
+  height: 568px;
+  width: 646px;
 }
 
 .header__background_image {
+  display: flex;
   position: absolute;
-  max-width: 636px;
-  top: 135px;
-  right: 20px;
+  background: url(../images/background_header.svg) no-repeat, cover;
+  z-index: -1;
   background-size: cover;
 }
 
