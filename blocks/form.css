@@ -11,7 +11,6 @@
 }
 
 .form__label {
-  margin-bottom: 32px;
   display: block;
   font-family: Inter;
   font-style: normal;
@@ -23,6 +22,7 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
+  gap: 20px;
 }
 
 .form__input {
