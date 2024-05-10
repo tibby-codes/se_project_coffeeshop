@@ -59,7 +59,7 @@
 }
 
 .about__paragraph:last-child {
-  padding-bottom: 173px;
+  padding-bottom: 0;
 }
 
 .about__circle {
