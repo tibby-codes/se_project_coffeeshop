@@ -41,6 +41,7 @@
   color: #838383;
   border-width: 1px;
   border-style: solid;
+  border-color: black;
 }
 
 .form__button {

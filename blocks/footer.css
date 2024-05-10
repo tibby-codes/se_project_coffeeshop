@@ -59,6 +59,8 @@
 
 .footer__social-link {
   margin-left: 80px;
+  color: white;
+  text-decoration: none;
 }
 
 .footer__social-link:hover {

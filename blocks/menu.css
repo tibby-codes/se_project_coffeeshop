@@ -4,6 +4,7 @@
   background-image: url(../images/background_menu.svg);
   background-size: cover;
   background-position: center;
+  text-align: center;
 }
 
 .menu__title {
@@ -14,17 +15,21 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  text-wrap: wrap;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu__subtitle {
-  text-align: center;
+  max-width: 780px;
   margin: 0 0 100px;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu__cards {
