@@ -56,10 +56,11 @@
   line-height: 30px;
   display: flex;
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .about__paragraph:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .about__circle {
